@@ -22,10 +22,10 @@ app.post('/', async (req, res) => {
 
   const options = {
     method: 'POST',
-    url: 'https://chat-gpt26.p.rapidapi.com/',
+    url: 'https://chatgpt-api8.p.rapidapi.com/',
     headers: {
       'x-rapidapi-key': process.env.RAPIDAPI_KEY,
-      'x-rapidapi-host': 'chat-gpt26.p.rapidapi.com',
+      'x-rapidapi-host': 'chatgpt-api8.p.rapidapi.com',
       'Content-Type': 'application/json',
     },
     data: {
