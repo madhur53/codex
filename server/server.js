@@ -22,14 +22,14 @@ app.post('/', async (req, res) => {
 
   const options = {
     method: 'POST',
-    url: 'https://chat-gpt26.p.rapidapi.com/',
+    url: 'https://cheapest-gpt-4-turbo-gpt-4-vision-chatgpt-openai-ai-api.p.rapidapi.com/v1/chat/completions',
     headers: {
       'x-rapidapi-key': process.env.RAPIDAPI_KEY,
-      'x-rapidapi-host': 'chat-gpt26.p.rapidapi.com',
+      'x-rapidapi-host': 'cheapest-gpt-4-turbo-gpt-4-vision-chatgpt-openai-ai-api.p.rapidapi.com',
       'Content-Type': 'application/json',
     },
     data: {
-      model: 'gpt-3.5-turbo',
+      model: 'gpt-4-turbo-2024-04-09',
       messages: [
         {
           role: 'user',
